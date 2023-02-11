@@ -1,0 +1,35 @@
+body{
+  background: #E0FFFF;
+}
+
+.toggle-button{
+  display: flex;
+  width: 80px;
+  height: 20px;
+  background: #ddd;
+}
+.toggle-button .toggle{
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  background: #F2F3F4;
+}
+.toggle-button .ball{
+  width: 15px;
+  height: 15px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  background: #5DADE2;
+  border-radius: 50%;
+}
+.toggle-button .wrap-text{
+  display: flex;
+  width: 30px;
+  height: 20px;
+  background: #fff;
+}
+.toggle-button .text{
+  font-size: 20px;
+  color: black;
+}
